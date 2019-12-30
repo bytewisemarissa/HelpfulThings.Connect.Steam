@@ -142,7 +142,6 @@
         </e>
       </e>
       <e p="HelpfulThings.Connect.Steam.Tests.Live" t="IncludeRecursive">
-        <e p="ApiKey.Private" t="Include" />
         <e p="ApiKey.Private.ReadMe.txt" t="Include" />
         <e p="BaseLiveTest.cs" t="Include" />
         <e p="HelpfulThings.Connect.Steam.Tests.Live.csproj" t="IncludeRecursive" />

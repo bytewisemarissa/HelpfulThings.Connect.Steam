@@ -25,7 +25,6 @@
 
     <ItemGroup>
       <None Remove="ApiKey.Private" />
-      <EmbeddedResource Include="ApiKey.Private" />
     </ItemGroup>
 
 </Project>
