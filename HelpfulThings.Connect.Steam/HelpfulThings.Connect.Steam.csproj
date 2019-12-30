@@ -2,6 +2,17 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <AssemblyName>HelpfulThings.Connect.Steam</AssemblyName>
+        <RootNamespace>HelpfulThings.Connect.Steam</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Helpful Things Steam API Connector</Title>
+        <Copyright>2019</Copyright>
+        <PackageProjectUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam</PackageProjectUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam.git</RepositoryUrl>
+        <RepositoryType>Github</RepositoryType>
+        <PackageVersion>1.0.0</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -11,4 +22,12 @@
       <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="NugetSupport" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="NugetSupport\icon.png" Pack="true" PackagePath="$(PackageIcon)" />
+        <None Include="NugetSupport\LICENSE" Pack="true" PackagePath="$(PackageLicenceFile)" />
+    </ItemGroup>
 </Project>

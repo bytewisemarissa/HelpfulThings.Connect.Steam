@@ -121,6 +121,10 @@
             <e p="ApplicationDetailSystemRequirementsSummary.cs" t="Include" />
           </e>
         </e>
+        <e p="NugetSupport" t="Include">
+          <e p="LICENSE" t="Include" />
+          <e p="icon.png" t="Include" />
+        </e>
         <e p="PlayerServiceClient.cs" t="Include" />
         <e p="RequestRouter.cs" t="Include" />
         <e p="SteamAppsClient.cs" t="Include" />
