@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpfulThings.Connect.Steam", "HelpfulThings.Connect.Steam\HelpfulThings.Connect.Steam.csproj", "{254AA9B1-E3B5-4403-B796-4A8827CE804A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpfulThings.Connect.Steam.Tests.Live", "HelpfulThings.Connect.Steam.Tests.Live\HelpfulThings.Connect.Steam.Tests.Live.csproj", "{0FBC01EF-A3E0-41E7-A358-86C6930D4E81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{254AA9B1-E3B5-4403-B796-4A8827CE804A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254AA9B1-E3B5-4403-B796-4A8827CE804A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254AA9B1-E3B5-4403-B796-4A8827CE804A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254AA9B1-E3B5-4403-B796-4A8827CE804A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBC01EF-A3E0-41E7-A358-86C6930D4E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBC01EF-A3E0-41E7-A358-86C6930D4E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBC01EF-A3E0-41E7-A358-86C6930D4E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBC01EF-A3E0-41E7-A358-86C6930D4E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,2 @@
+To add a key for live testing create a file called 'ApiKey.Private' in the root of the project directory, the same path
+as this file. Just paste your API key inside. Include this file as an embedded resource.

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_HelpfulThings.Connect.Steam.-609383837.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.2.0/build/netcoreapp1.0" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="HelpfulThings.Connect.Steam" t="IncludeRecursive">
+        <e p="Concurrency" t="Include">
+          <e p="TimedLock.cs" t="Include" />
+        </e>
+        <e p="Configuration" t="Include">
+          <e p="MeteringType.cs" t="Include" />
+          <e p="SteamApiOptions.cs" t="Include" />
+          <e p="SteamEndpoints.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="CommunityVisableState.cs" t="Include" />
+          <e p="EconomyBanStatus.cs" t="Include" />
+          <e p="PersonaState.cs" t="Include" />
+          <e p="ProfileState.cs" t="Include" />
+          <e p="SteamRelationship.cs" t="Include" />
+        </e>
+        <e p="Exceptions" t="Include">
+          <e p="ApiKeyException.cs" t="Include" />
+          <e p="LockTimeoutException.cs" t="Include" />
+          <e p="RequestException.cs" t="Include" />
+          <e p="ResourceNotFoundException.cs" t="Include" />
+          <e p="ServerSideException.cs" t="Include" />
+        </e>
+        <e p="HelpfulThings.Connect.Steam.csproj" t="IncludeRecursive" />
+        <e p="IOC" t="Include">
+          <e p="IOCSupport.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IPlayerServiceClient.cs" t="Include" />
+          <e p="IRequestRouter.cs" t="Include" />
+          <e p="ISteamAppsClient.cs" t="Include" />
+          <e p="ISteamNewsClient.cs" t="Include" />
+          <e p="ISteamRequestMeter.cs" t="Include" />
+          <e p="ISteamUserClient.cs" t="Include" />
+          <e p="ISteamUserStatsClient.cs" t="Include" />
+          <e p="IStoreApiClient.cs" t="Include" />
+        </e>
+        <e p="JsonConverters" t="Include">
+          <e p="EmptyArrayConverter.cs" t="Include" />
+        </e>
+        <e p="Metering" t="Include">
+          <e p="EvenSplitMeter.cs" t="Include" />
+        </e>
+        <e p="Models" t="Include">
+          <e p="PlayerService" t="Include">
+            <e p="IsPlaySharedGameResponse.cs" t="Include" />
+            <e p="OwnedGame.cs" t="Include" />
+            <e p="OwnedGamesResponse.cs" t="Include" />
+            <e p="RecentlyPlayedGameResponse.cs" t="Include" />
+            <e p="RecentlyPlayerGame.cs" t="Include" />
+          </e>
+          <e p="ResponseBase.cs" t="Include" />
+          <e p="SteamApps" t="Include">
+            <e p="AppListResponse.cs" t="Include" />
+            <e p="AppListWrapper.cs" t="Include" />
+            <e p="ApplicationInformation.cs" t="Include" />
+          </e>
+          <e p="SteamNews" t="Include">
+            <e p="NewsForApplicationResponse.cs" t="Include" />
+            <e p="NewsForApplicationWrapper.cs" t="Include" />
+            <e p="NewsItem.cs" t="Include" />
+          </e>
+          <e p="SteamUser" t="Include">
+            <e p="FriendListResponse.cs" t="Include" />
+            <e p="FriendListWrapper.cs" t="Include" />
+            <e p="FriendSummary.cs" t="Include" />
+            <e p="PlayerBanSummary.cs" t="Include" />
+            <e p="PlayerBansResponse.cs" t="Include" />
+            <e p="PlayerSummariesResponse.cs" t="Include" />
+            <e p="PlayerSummary.cs" t="Include" />
+          </e>
+          <e p="SteamUserStats" t="Include">
+            <e p="AchievementPercentagesWrapper.cs" t="Include" />
+            <e p="AchievementResponse.cs" t="Include" />
+            <e p="AchievementSummary.cs" t="Include" />
+            <e p="GlobalStatsResponse.cs" t="Include" />
+            <e p="GlobalStatsSummary.cs" t="Include" />
+            <e p="PlayerAchievementSummary.cs" t="Include" />
+            <e p="PlayerAchievementsResponse.cs" t="Include" />
+            <e p="PlayerAchievementsWrapper.cs" t="Include" />
+            <e p="SchemaForGameAchievementSummary.cs" t="Include" />
+            <e p="SchemaForGameAvailableGameStats.cs" t="Include" />
+            <e p="SchemaForGameResponse.cs" t="Include" />
+            <e p="SchemaForGameStatsSummary.cs" t="Include" />
+            <e p="SchemaForGameWrapper.cs" t="Include" />
+            <e p="UserStatsForGameAchievementSummary.cs" t="Include" />
+            <e p="UserStatsForGameResponse.cs" t="Include" />
+            <e p="UserStatsForGameStatsSummary.cs" t="Include" />
+            <e p="UserStatsForGameWrapper.cs" t="Include" />
+          </e>
+          <e p="Store" t="Include">
+            <e p="ApplicationDetail.cs" t="Include" />
+            <e p="ApplicationDetailAchievementMetadata.cs" t="Include" />
+            <e p="ApplicationDetailContentDescriptorsSummary.cs" t="Include" />
+            <e p="ApplicationDetailGameCategory.cs" t="Include" />
+            <e p="ApplicationDetailGameGenre.cs" t="Include" />
+            <e p="ApplicationDetailHighlightedAchievementSummary.cs" t="Include" />
+            <e p="ApplicationDetailMetacriticSummary.cs" t="Include" />
+            <e p="ApplicationDetailMovieMetaData.cs" t="Include" />
+            <e p="ApplicationDetailPackageGroupSummary.cs" t="Include" />
+            <e p="ApplicationDetailPackageGroupSummaryItem.cs" t="Include" />
+            <e p="ApplicationDetailPlatformSummary.cs" t="Include" />
+            <e p="ApplicationDetailPriceOverview.cs" t="Include" />
+            <e p="ApplicationDetailRecommendationMetadata.cs" t="Include" />
+            <e p="ApplicationDetailReleaseDateSummary.cs" t="Include" />
+            <e p="ApplicationDetailResponse.cs" t="Include" />
+            <e p="ApplicationDetailScreenShotMetadata.cs" t="Include" />
+            <e p="ApplicationDetailSupportInformation.cs" t="Include" />
+            <e p="ApplicationDetailSystemRequirementsSummary.cs" t="Include" />
+          </e>
+        </e>
+        <e p="PlayerServiceClient.cs" t="Include" />
+        <e p="RequestRouter.cs" t="Include" />
+        <e p="SteamAppsClient.cs" t="Include" />
+        <e p="SteamNewsClient.cs" t="Include" />
+        <e p="SteamUserClient.cs" t="Include" />
+        <e p="SteamUserStatsClient.cs" t="Include" />
+        <e p="StoreApiClient.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="HelpfulThings.Connect.Steam.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="HelpfulThings.Connect.Steam.Tests.Live" t="IncludeRecursive">
+        <e p="ApiKey.Private" t="Include" />
+        <e p="ApiKey.Private.ReadMe.txt" t="Include" />
+        <e p="BaseLiveTest.cs" t="Include" />
+        <e p="HelpfulThings.Connect.Steam.Tests.Live.csproj" t="IncludeRecursive" />
+        <e p="PlayerServiceClientLiveTests.cs" t="Include" />
+        <e p="SteamAppsClientLiveTests.cs" t="Include" />
+        <e p="SteamNewsClientLiveTests.cs" t="Include" />
+        <e p="SteamUserClientLiveTests.cs" t="Include" />
+        <e p="SteamUserStatsClientLiveTests.cs" t="Include" />
+        <e p="StoreApiClientLiveTests.cs" t="Include" />
+        <e p="TestConstants.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="HelpfulThings.Connect.Steam.Tests.Live.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="HelpfulThings.Connect.Steam.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
