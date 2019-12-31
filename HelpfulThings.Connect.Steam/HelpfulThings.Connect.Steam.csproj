@@ -13,8 +13,7 @@
         <PackageIconUrl>https://i.imgur.com/qLyye40.png</PackageIconUrl>
         <RepositoryUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam.git</RepositoryUrl>
         <RepositoryType>Github</RepositoryType>
-        <PackageVersion>1.0.1</PackageVersion>
-        
+        <PackageVersion>1.0.2</PackageVersion>
     </PropertyGroup>
     <ItemGroup>
       <PackageReference Include="HelpfulThings.DataTypes.Unix" Version="1.0.5" />
