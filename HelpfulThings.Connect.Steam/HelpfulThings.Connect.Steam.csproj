@@ -10,22 +10,21 @@
         <PackageProjectUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageIcon>icon.png</PackageIcon>
+        <PackageIconUrl>https://i.imgur.com/qLyye40.png</PackageIconUrl>
         <RepositoryUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam.git</RepositoryUrl>
         <RepositoryType>Github</RepositoryType>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
+        
     </PropertyGroup>
-
     <ItemGroup>
       <PackageReference Include="HelpfulThings.DataTypes.Unix" Version="1.0.2" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
       <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.0" />
       <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     </ItemGroup>
-
     <ItemGroup>
       <Folder Include="NugetSupport" />
     </ItemGroup>
-
     <ItemGroup>
         <None Include="NugetSupport\icon.png" Pack="true" PackagePath="$(PackageIcon)" />
         <None Include="NugetSupport\LICENSE" Pack="true" PackagePath="$(PackageLicenceFile)" />
