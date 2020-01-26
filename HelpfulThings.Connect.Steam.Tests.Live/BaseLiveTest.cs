@@ -22,12 +22,7 @@ namespace HelpfulThings.Connect.Steam.Tests.Live
 
             try
             {
-                var assembly = Assembly.GetExecutingAssembly();
-                var resourceStream =
-                    assembly.GetManifestResourceStream("HelpfulThings.Connect.Steam.Tests.Live.ApiKey.Private");
-                using var reader = new StreamReader(resourceStream ?? throw new ResourceNotFoundException(),
-                    Encoding.UTF8);
-                apiKey = reader.ReadToEnd();
+                apiKey = File.ReadAllText("ApiKey.Private");
             }
             catch (Exception ex)
             {

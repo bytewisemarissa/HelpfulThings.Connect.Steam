@@ -1,17 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <AssemblyName>HelpfulThings.Connect.Steam</AssemblyName>
         <RootNamespace>HelpfulThings.Connect.Steam</RootNamespace>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Title>Helpful Things Steam API Connector</Title>
-        <Copyright>2019</Copyright>
-        <PackageProjectUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam</PackageProjectUrl>
+        <Description>An asynchronous wrapper library for Steam's public API.</Description>
+        <Authors>Marissa</Authors>
+        <Copyright>2020</Copyright>
+        <PackageProjectUrl>https://github.com/bytewisemarissa/HelpfulThings.Connect.Steam</PackageProjectUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageIcon>icon.png</PackageIcon>
         <PackageIconUrl>https://i.imgur.com/qLyye40.png</PackageIconUrl>
-        <RepositoryUrl>https://github.com/paranoidTwitch/HelpfulThings.Connect.Steam.git</RepositoryUrl>
+        <RepositoryUrl>https://github.com/bytewisemarissa/HelpfulThings.Connect.Steam.git</RepositoryUrl>
         <RepositoryType>Github</RepositoryType>
         <PackageVersion>1.0.3</PackageVersion>
     </PropertyGroup>
